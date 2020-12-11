@@ -2,4 +2,35 @@ font-family: 'PT Sans', sans-serif;
 font-family: 'Sansita Swashed', cursive;
 
 
+* {
+    box-sizing: border-box;
+}
 
+/* ////// base elements /////// 
+//////////////////////////////*/
+
+body {
+    background-color: hsl(0,0,100);
+    color: black;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////// class styles /////// 
+/////////////////////////////*/
