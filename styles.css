@@ -24,10 +24,6 @@ h2 {
     font-family: 'Sansita Swashed', cursive;
 }
 
-h2:hover, h2:focus {
-    color: linear-gradient (to right,rgb(137,192,115),rgb(243,123,120));
-}
-
 
 
 
