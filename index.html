@@ -15,19 +15,19 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li>
-                    <a href="#details">details</a>
-
-                </li>
-                <li>
-                    <a href="#speakers">speakers</a>
-                </li>
-                <li>
-                    <a href="#register">register</a>
-                </li>
+            <button type="button" class="u-button-reset js-toggle-trigger" aria-controls="site-menu">
+                <span aria-hidden="true" class="menu-icon">
+                    <div class="menu-icon__line"></div>
+                    <div class="menu-icon__line"></div>
+                    <div class="menu-icon__line"></div>
+                </span>
+            </button>
+            <ul id="site-menu" class="u-list-reset">
+                <li><a href="#details">details</a></li>
+                <li><a href="#speakers">speakers</a></li>
+                <li><a href="#register">register</a></li>
             </ul>
-            
+
         </nav>
     </header>
 
@@ -35,7 +35,7 @@
     <h1>Green-on-Mind Design</h1>
 
     <main>
-        <section id="details">
+        <section id="details" class="u-list-reset">
             <h2><span aria-hidden="true">-</span> details <span aria-hidden="true">-</span></h2>
 
             <p><strong>theme:</strong> Designing Sustainably</p>
@@ -43,7 +43,8 @@
             <p><strong>when:</strong> April 22, 2021</p>
             <p><strong>time:</strong> 12PM - 3PM (EST)</p>
             <p><strong>who's invited:</strong> Designers</p>
-            <p><strong>what:</strong> Green-on-Mind Design is proud to present the speakers and date of its next monthly event!
+            <p><strong>what:</strong> Green-on-Mind Design is proud to present the speakers and date of its next monthly
+                event!
                 As
                 always, it will be virtual
                 to lower attendees' carbon footprint to travel, save money and resources, and to broaden accessibility
@@ -56,7 +57,7 @@
         </section>
 
 
-        <section id="speakers">
+        <section id="speakers" class="u-list-reset">
             <h2><span aria-hidden="true">-</span> speakers <span aria-hidden="true">-</span></h2>
 
             <ul <li>
@@ -64,7 +65,7 @@
                     alt="close-up of a woman wearing glasses and a turtleneck sweater, leaning against tree" />
                 <a class="speaker-name" href="https://www.littlefoxdesign.com/" target="blank">Emma Fanning</a>
                 <p> Co-Founder of Little Fox Design, sustainable designer, & environmental educator</p>
-                <p> 
+                <p>
                     Staying Green With Clients
                 </p>
                 <p>12PM-12:45PM</p>
@@ -88,7 +89,7 @@
                         target="blank">Michelle Fehler</a>
                     <p>Biomimicry professional, visual communication designer, & educator at The Design School at ASU
                     </p>
-                    <p> 
+                    <p>
                         Inspired By Nature
                     </p>
                     <p>1PM-1:45PM</p>
@@ -138,7 +139,7 @@
 
 
 
-        <section id="register">
+        <section id="register" class="u-list-reset">
             <h2><span aria-hidden="true">-</span> register <span aria-hidden="true">-</span></h2>
 
             <form>
@@ -208,7 +209,8 @@
 
     </footer>
 
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="menu.js"></script>
 </body>
 
 </html>
