@@ -1,6 +1,23 @@
+/* ==============
+   UTILITY STYLES
+   ============== */
 
-* {
-    box-sizing: border-box;
+.u-button-reset {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 0;
+    text-align: inherit;
+}
+
+.u-list-reset {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 
@@ -8,8 +25,15 @@
 green   - hsl(103,38,60);     rgb(137,192,115); */
 
 
-/* ////// base elements /////// 
-//////////////////////////////*/
+/* ==============
+    BASE STYLES
+   ============== */
+
+
+* {
+    box-sizing: border-box;
+}
+
 
 body {
     background-color: white;
@@ -20,7 +44,7 @@ body {
 }
 
 h2 {
-    color: rgb(137,192,115);
+    color: rgb(137, 192, 115);
     font-family: 'Sansita Swashed', cursive;
 }
 
