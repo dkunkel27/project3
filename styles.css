@@ -48,16 +48,41 @@ h2 {
     font-family: 'Sansita Swashed', cursive;
 }
 
+/* ==============*/
 
+menu-icon__line {
+    background-color: #444;
+    height: 2px;
+    margin: 8px auto;
+    transition: all 260ms ease-in-out;
+    width: 42px;
+}
 
+[aria-expanded=true] .menu-icon__line:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+}
 
+[aria-expanded=true] .menu-icon__line:nth-child(2) {
+    opacity: 0;
+}
 
+[aria-expanded=true] .menu-icon__line:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+}
 
+@media (max-width: 599px) {
 
+    .site-nav>button:not([aria-expanded]) {
+        display: none;
+    }
 
+    .site-nav>button[aria-expanded=false]+ul {
+        display: none;
+    }
+}
 
-
-
-
-/* ////// class styles /////// 
-/////////////////////////////*/
+@media (min-width: 600px) {
+    .site-nav>button {
+        display: none;
+    }
+}
