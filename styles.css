@@ -1,10 +1,12 @@
-font-family: 'PT Sans', sans-serif;
-font-family: 'Sansita Swashed', cursive;
-
 
 * {
     box-sizing: border-box;
 }
+
+
+/* pink - hsl(1,84,71);
+green   - hsl(103,38,60); */
+
 
 /* ////// base elements /////// 
 //////////////////////////////*/
@@ -12,13 +14,16 @@ font-family: 'Sansita Swashed', cursive;
 body {
     background-color: hsl(0,0,100);
     color: black;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'PT Sans', sans-serif;
     font-size: 14px;
     line-height: 19px;
 }
 
 
-
+h2 {
+    color: hsl(103,38,60); 
+    font-family: 'Sansita Swashed', cursive;
+}
 
 
 
