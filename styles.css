@@ -41,7 +41,11 @@ body {
     font-family: 'PT Sans', sans-serif;
     font-size: 16px;
     line-height: 20px;
-    padding: 20px;
+    
+}
+
+header {
+    background: linear-gradient(to right,rgb(137,192,115),rgb(243,123,120));
 }
 
 img {
@@ -70,8 +74,8 @@ h2 {
 
 
 .speakers {
-    background-color: rgb(243, 123, 120);
-    margin: 0
+    background: rgb(243, 123, 120);
+    margin: 30px; 
 }
 
 
