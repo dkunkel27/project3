@@ -44,7 +44,8 @@ body {
     color: black;
     font-family: 'PT Sans', sans-serif;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 20px;
+    text-align: center;
 }
 
 img {
@@ -55,7 +56,7 @@ h1 {
     color: rgb(137, 192, 115);
     font-family: 'Sansita Swashed', cursive; 
     line-height: 32px;
-    font-size: 26px;
+    font-size: 28px;
     text-align: center;
 }
 
@@ -63,10 +64,10 @@ h2 {
     color: rgb(137, 192, 115);
     font-family: 'Sansita Swashed', cursive;
     text-align: center;
-    text-size: 20px;
+    font-size: 25px;
 }
 
-.speakertitle {
+.speakerheading {
     color: white;
 }
 
@@ -76,20 +77,19 @@ h2 {
 }
 
 
+.speaker-name { 
+    text-align: center;
+    margin-top: 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.speaker-photo {
+    border-radius: 50%;
+    height: auto;
+    width: 150px;
+    display: inline-block;
+    vertical-align: center;
+}
+    
 
 
 
