@@ -45,7 +45,7 @@ body {
 }
 
 strong {
-    color: rgb(243,123,120);
+    color: rgb(243, 123, 120);
 }
 
 header {
@@ -58,7 +58,7 @@ header {
 
 img {
     max-width: 100%;
-    
+
 }
 
 h1 {
@@ -80,22 +80,23 @@ h2 {
 
 .speakerheading {
     color: white;
+    padding-top: 40px; 
 }
 
 
 .speakers {
     background: rgb(243, 123, 120);
-    list-style: none;
     
 }
 
 .speaker-info {
-    background: white; 
-    margin-left: 20px; 
+    background: white;
+    margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 40px;
     padding: 40px;
-} 
+    border-radius: 10px;
+}
 
 
 
@@ -109,9 +110,10 @@ h2 {
     color: rgb(243, 123, 120);
 }
 
-.speaker-name:hover, .speaker-name:focus {
+.speaker-name:hover,
+.speaker-name:focus {
     color: rgb(137, 192, 115);
-    text-decoration: solid underline; 
+    text-decoration: solid underline;
 }
 
 
@@ -122,7 +124,6 @@ h2 {
     display: list-item;
     vertical-align: center;
     margin-bottom: 20px;
-    margin-top: 40px;
 }
 
 
@@ -131,17 +132,17 @@ h2 {
     text-align: center;
     line-height: 36px;
     color: rgb(137, 192, 115);
-    
+
 
 }
 
 
-.register-button{ 
+.register-button {
     margin-top: 13px;
     background-color: rgb(243, 123, 120);
-    border: 2px solid rgb(255,255,255);
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 40px;
-    color:  rgb(255,255,255);
+    color: rgb(255, 255, 255);
     height: 50px;
     width: 120px;
     padding: 10px;
@@ -150,8 +151,9 @@ h2 {
     text-transform: uppercase;
 }
 
-.register-button:hover, .register-button:focus {
-    background: linear-gradient(to right,rgb(137, 192, 115),rgb(243, 123, 120));
+.register-button:hover,
+.register-button:focus {
+    background: linear-gradient(to right, rgb(137, 192, 115), rgb(243, 123, 120));
 }
 
 footer {
@@ -170,12 +172,12 @@ footer {
     text-transform: lowercase;
 }
 
-.newsletter-button { 
+.newsletter-button {
     margin-top: 13px;
     background-color: rgb(243, 123, 120);
-    border: 1px solid  rgb(243, 123, 120);
+    border: 1px solid rgb(243, 123, 120);
     border-radius: 20px;
-    color:  rgb(255,255,255);
+    color: rgb(255, 255, 255);
     height: 40px;
     width: 95px;
     padding: 10px;
@@ -184,9 +186,10 @@ footer {
     text-transform: uppercase;
 }
 
-.newsletter-button:hover, .newsletter-button:focus {
-    background-color:  rgb(255,255,255);
-    border: rgb(255,255,255);
+.newsletter-button:hover,
+.newsletter-button:focus {
+    background-color: rgb(255, 255, 255);
+    border: rgb(255, 255, 255);
     color: rgb(243, 123, 120);
 }
 
