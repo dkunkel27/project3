@@ -44,9 +44,17 @@ body {
 
 }
 
+strong {
+    color: rgb(243,123,120);
+}
+
 header {
     background: linear-gradient(to right, rgb(137, 192, 115), rgb(243, 123, 120));
 }
+
+/* .details {
+    text-align: left;
+} */
 
 img {
     max-width: 100%;
@@ -81,6 +89,11 @@ h2 {
     
 }
 
+.speaker-info {
+    background: white; 
+    margin: 20px; 
+}
+
 
 .speaker-name {
     text-align: center;
@@ -90,6 +103,13 @@ h2 {
     text-decoration: none;
     color: white;
 }
+
+
+.speaker-name:hover, .speaker-name:focus {
+    color: rgb(137, 192, 115);
+    text-decoration: solid underline; 
+}
+
 
 .speaker-photo {
     border-radius: 50%;
