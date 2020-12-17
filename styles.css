@@ -104,11 +104,22 @@ h2 {
     text-align: center;
     line-height: 36px;
     color: rgb(137, 192, 115);
+
 }
 
 
 .register-button{ 
-
+    margin-top: 13px;
+    background-color: rgb(243, 123, 120);
+    border: 1px solid  rgb(243, 123, 120);
+    border-radius: 20px;
+    color:  rgb(255,255,255);
+    height: 60px;
+    width: 95px;
+    padding: 10px;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 
@@ -128,7 +139,10 @@ footer {
     text-transform: lowercase;
 }
 
-.newsletter-button{ }
+.newsletter-button { 
+    
+
+}
 
 
 
