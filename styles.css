@@ -103,7 +103,6 @@ h2 {
 .speaker-name {
     text-align: center;
     display: list-item;
-    list-style: none;
     font-size: 25px;
     text-decoration: none;
     font-weight: bold;
@@ -121,8 +120,8 @@ h2 {
     border-radius: 50%;
     height: auto;
     width: 150px;
-    display: list-item;
-    vertical-align: center;
+    display: inline-block;
+    vertical-align: middle;
     margin-bottom: 20px;
 }
 
