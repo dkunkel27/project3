@@ -101,7 +101,14 @@ h2 {
 
 
 .registration {
-    
+    text-align: center;
+    line-height: 36px;
+    color: rgb(137, 192, 115);
+}
+
+
+.register-button{ 
+
 }
 
 
@@ -114,8 +121,14 @@ footer {
     text-align: center;
     list-style: none;
     color: white;
+    text-transform: uppercase;
 }
 
+.newsletter {
+    text-transform: lowercase;
+}
+
+.newsletter-button{ }
 
 
 
