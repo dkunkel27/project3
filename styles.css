@@ -76,7 +76,8 @@ h2 {
 .speaker-name {
     text-align: center;
     display: list-item;
-    margin-top: 20px;
+   
+
 }
 
 .speaker-photo {
@@ -85,8 +86,8 @@ h2 {
     width: 150px;
     display: list-item;
     vertical-align: center;
-   
-   
+    margin-bottom: 20px;
+    margin-top: 40px; 
 }
 
 
