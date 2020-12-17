@@ -126,7 +126,11 @@ h2 {
     margin-bottom: 20px;
 }
 
-
+.bio { 
+    color: rgb(160, 160, 160);
+    margin-left: 15px; 
+    margin-right: 15px;
+}
 
 .registration {
     text-align: center;
