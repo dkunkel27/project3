@@ -118,10 +118,13 @@ a:focus {
 .speaker-photo {
     border-radius: 50%;
     height: auto;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
     width: 150px;
     display: inline-block;
     vertical-align: middle;
-    margin-bottom: 20px;
+    
 }
 
 
