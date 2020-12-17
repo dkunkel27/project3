@@ -76,6 +76,24 @@ h2 {
     margin-bottom: 50px;
 }
 
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover,
+a:focus {
+    color: black;
+}
+
+.details {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
 .speakerheading {
     color: white;
     padding-top: 40px;
@@ -92,7 +110,7 @@ h2 {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 40px;
-    padding: 40px;
+    padding: 20px;
     border-radius: 10px;
 }
 
@@ -147,8 +165,11 @@ h2 {
 }
 
 
-
-
+.previous-speakers {
+    text-align: center;
+    text-decoration: solid underline;
+    padding-bottom: 40px;
+}
 
 
 
