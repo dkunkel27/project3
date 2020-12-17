@@ -18,6 +18,10 @@
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
+    /* 
+    position: absolute;
+    width: 100%; */
+
 }
 
 
@@ -39,8 +43,20 @@ body {
     background-color: white;
     color: black;
     font-family: 'PT Sans', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 19px;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 { 
+    color: rgb(137, 192, 115);
+    font-family: 'Sansita Swashed', cursive; 
+    line-height: 32px;
+    font-size: 26px;
+    
 }
 
 h2 {
@@ -49,8 +65,19 @@ h2 {
 }
 
 .speakers {
-    background-color: rgb(243,123,120);
+    background-color: rgb(243, 123, 120);
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
