@@ -56,13 +56,20 @@ h1 {
     font-family: 'Sansita Swashed', cursive; 
     line-height: 32px;
     font-size: 26px;
-    
+    text-align: center;
 }
 
 h2 {
     color: rgb(137, 192, 115);
     font-family: 'Sansita Swashed', cursive;
+    text-align: center;
+    text-size: 20px;
 }
+
+.speakertitle {
+    color: white;
+}
+
 
 .speakers {
     background-color: rgb(243, 123, 120);
