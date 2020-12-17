@@ -91,8 +91,12 @@ h2 {
 
 .speaker-info {
     background: white; 
-    margin: 20px; 
-}
+    margin-left: 20px; 
+    margin-right: 20px;
+    margin-bottom: 40px;
+    padding: 40px;
+} 
+
 
 
 .speaker-name {
@@ -101,9 +105,9 @@ h2 {
     list-style: none;
     font-size: 25px;
     text-decoration: none;
-    color: white;
+    font-weight: bold;
+    color: rgb(243, 123, 120);
 }
-
 
 .speaker-name:hover, .speaker-name:focus {
     color: rgb(137, 192, 115);
