@@ -41,6 +41,7 @@ body {
     font-family: 'PT Sans', sans-serif;
     font-size: 16px;
     line-height: 20px;
+    padding: 20px;
 }
 
 img {
@@ -70,6 +71,7 @@ h2 {
 
 .speakers {
     background-color: rgb(243, 123, 120);
+    margin: 0
 }
 
 
