@@ -1,6 +1,4 @@
-/* ==============
-   UTILITY STYLES
-   ============== */
+/* ========= UTILITY STYLES ============= */
 
 .u-button-reset {
     background: transparent;
@@ -25,9 +23,7 @@
 green   - hsl(103,38,60);     rgb(137,192,115); */
 
 
-/* ==============
-    BASE STYLES
-   ============== */
+/* ========= BASE STYLES ============= */
 
 
 * {
@@ -41,7 +37,6 @@ body {
     font-size: 16px;
     line-height: 20px;
     margin: 0;
-
 }
 
 strong {
@@ -55,12 +50,10 @@ header {
 
 .menu-list {
     display: block;
-    
-} 
+}
 
 img {
     max-width: 100%;
-
 }
 
 h1 {
@@ -126,8 +119,7 @@ a:focus {
     margin-right: auto;
     margin-left: auto;
     width: 150px;
-    display: inline-block;
-    vertical-align: middle;
+    display: block;
 
 }
 
@@ -150,7 +142,7 @@ a:focus {
     text-decoration: none;
     font-weight: bold;
     color: rgb(243, 123, 120);
-    
+
 }
 
 .speaker-name:hover,
@@ -253,7 +245,7 @@ footer {
 
 
 
-/* ==============*/
+/* ========= JS HAMBURGER ============= */
 
 .menu-icon__line {
     background-color: white;
@@ -274,6 +266,12 @@ footer {
 [aria-expanded=true] .menu-icon__line:nth-child(3) {
     transform: translateY(-10px) rotate(-45deg);
 }
+
+
+
+/* ========= MEDIA QUERIES ============= */
+   
+
 
 @media (max-width: 599px) {
 
