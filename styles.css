@@ -53,9 +53,11 @@ header {
     position: absolute; 
     background-color: rgb(137, 192, 115);
     width: 60vw;
-    top: 56.5px;
-    margin: 0;
-    padding: 
+    
+    text-align: left;
+    font-size: 26px; 
+    font-family: 'Sansita Swashed', cursive;
+    
     
 }
 
