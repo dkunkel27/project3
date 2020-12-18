@@ -48,17 +48,18 @@ header {
     padding: 15px;
 }
 
-.menu-list {
+.menu-list a{
     display: block;
-    position: absolute; 
-    background-color: rgb(137, 192, 115);
-    width: 60vw;
-    
-    text-align: left;
+    padding: 40px;
+    text-align: center;
     font-size: 26px; 
     font-family: 'Sansita Swashed', cursive;
+
     
-    
+}
+
+.menu-list:hover, .menu-list:focus {
+    background-color: rgb(243, 123, 120);
 }
 
 .site-nav {
