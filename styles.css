@@ -48,14 +48,14 @@ header {
     padding: 15px;
 }
 
-.menu-list a{
+.menu-list a {
     display: block;
     padding: 40px;
     text-align: center;
-    font-size: 26px; 
+    font-size: 26px;
     font-family: 'Sansita Swashed', cursive;
 
-    
+
 }
 
 
@@ -193,6 +193,14 @@ a:focus {
 
 }
 
+input[type=text] {
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+
+
+
 
 .register-button {
     margin-top: 13px;
@@ -282,7 +290,7 @@ footer {
 
 
 /* ========= MEDIA QUERIES ============= */
-   
+
 
 
 @media (max-width: 599px) {
