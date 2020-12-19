@@ -297,8 +297,23 @@ footer {
 
     }
 
-    .site-nav li+li {
+    nav li {
+        display: inline-block;
+        max-width: 100px;
+    }
+
+    nav li+li {
         margin-left: 25px;
+    }
+
+    nav a {
+        display: block;
+        padding: 4px;
+        text-align: left;
+    }
+
+    nav ul {
+        margin: 0;
     }
 
 
