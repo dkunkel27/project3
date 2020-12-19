@@ -1,5 +1,6 @@
 /* ====================== UTILITY STYLES ========================== */
 
+
 .u-button-reset {
     background: transparent;
     border: 0;
@@ -19,13 +20,14 @@
 }
 
 
+
+
 /* ====================== BASE STYLES ========================== */
 
 
 * {
     box-sizing: border-box;
 }
-
 
 body {
     color: black;
@@ -38,7 +40,6 @@ body {
 strong {
     color: rgb(243, 123, 120);
 }
-
 
 a {
     color: white;
@@ -61,15 +62,6 @@ img {
     max-width: 100%;
 }
 
-.menu-list a {
-    display: block;
-    font-family: 'Sansita Swashed', cursive;
-    font-size: 26px;
-    padding: 40px;
-    text-align: center;
-}
-
-
 h1 {
     color: rgb(137, 192, 115);
     font-family: 'Sansita Swashed', cursive;
@@ -87,7 +79,49 @@ h2 {
     text-align: center;
 }
 
+input {
+    border: 1px solid rgb(243, 123, 120);
+    border-radius: 4px;
+    height: 25px;
+    width: 60%;
+}
+
+input:hover,
+input:focus {
+    background-color: rgb(255, 232, 231);
+    outline: none;
+}
+
+footer {
+    background: rgb(137, 192, 115);
+    margin-top: 60px;
+    padding: 40px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+
 /* ====================== CLASS STYLES ========================== */
+
+
+.menu-icon__line {
+    background-color: white;
+    height: 2px;
+    margin: 8px auto;
+    transition: all 260ms ease-in-out;
+    width: 30px;
+}
+
+.menu-list a {
+    display: block;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 26px;
+    padding: 40px;
+    text-align: center;
+}
 
 .details {
     text-align: left;
@@ -95,15 +129,13 @@ h2 {
     margin-right: 20px;
 }
 
+.speakers {
+    background: rgb(243, 123, 120);
+}
 
 .speakerheading {
     color: white;
     padding-top: 40px;
-}
-
-
-.speakers {
-    background: rgb(243, 123, 120);
 }
 
 .speaker-info {
@@ -115,17 +147,6 @@ h2 {
     padding: 20px;
 }
 
-.speaker-photo {
-    border-radius: 50%;
-    display: block;
-    height: auto;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 150px;
-}
-
-
 .title {
     color: rgb(137, 192, 115);
     font-size: 25px;
@@ -134,6 +155,16 @@ h2 {
     margin-bottom: -5px;
     margin-top: 0px;
     text-align: center;
+}
+
+.speaker-photo {
+    border-radius: 50%;
+    display: block;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
 }
 
 .speaker-name {
@@ -178,20 +209,6 @@ h2 {
     text-align: center;
 }
 
-input {
-    border: 1px solid rgb(243, 123, 120);
-    border-radius: 4px;
-    height: 25px;
-    width: 60%;
-}
-
-input:hover,
-input:focus {
-    background-color: rgb(255, 232, 231);
-    outline: none;
-}
-
-
 .register-button {
     background-color: rgb(243, 123, 120);
     border: 2px solid rgb(255, 255, 255);
@@ -209,15 +226,6 @@ input:focus {
 .register-button:hover,
 .register-button:focus {
     background: linear-gradient(to right, rgb(137, 192, 115), rgb(243, 123, 120));
-}
-
-footer {
-    background: rgb(137, 192, 115);
-    margin-top: 60px;
-    padding: 40px;
-    line-height: 32px;
-    text-align: center;
-    text-transform: uppercase;
 }
 
 .newsletter {
@@ -245,13 +253,7 @@ footer {
     color: rgb(243, 123, 120);
 }
 
-.menu-icon__line {
-    background-color: white;
-    height: 2px;
-    margin: 8px auto;
-    transition: all 260ms ease-in-out;
-    width: 30px;
-}
+
 
 
 /* ====================== JS HAMBURGER ========================== */
@@ -268,6 +270,7 @@ footer {
 [aria-expanded=true] .menu-icon__line:nth-child(3) {
     transform: translateY(-10px) rotate(-45deg);
 }
+
 
 
 
@@ -308,17 +311,16 @@ footer {
         padding: 11px;
     }
 
-    
+
     .footer-links {
         display: inline-block;
         text-align: left;
-
     }
 
-    .footer-links li { 
+    .footer-links li {
         display: inline-block;
         margin-right: 20px;
-        padding: 5px; 
+        padding: 5px;
     }
 
 
@@ -337,7 +339,4 @@ footer {
         vertical-align: top;
         width: min(320px, 40%);
     }
-
-
-
 }
