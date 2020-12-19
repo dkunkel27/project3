@@ -1,0 +1,340 @@
+/* ====================== UTILITY STYLES ========================== */
+
+
+.u-button-reset {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 0;
+    text-align: inherit;
+}
+
+.u-list-reset {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+
+
+
+/* ====================== BASE STYLES ========================== */
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+}
+
+strong {
+    color: rgb(243, 123, 120);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: black;
+}
+
+header {
+    background: linear-gradient(to right, rgb(137, 192, 115), rgb(243, 123, 120));
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    color: rgb(137, 192, 115);
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(137, 192, 115);
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+input {
+    border: 1px solid rgb(243, 123, 120);
+    border-radius: 4px;
+    height: 25px;
+    width: 60%;
+}
+
+input:hover,
+input:focus {
+    background-color: rgb(255, 232, 231);
+    outline: none;
+}
+
+footer {
+    background: rgb(137, 192, 115);
+    margin-top: 60px;
+    padding: 40px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+
+/* ====================== CLASS STYLES ========================== */
+
+
+.menu-icon__line {
+    background-color: white;
+    height: 2px;
+    margin: 8px auto;
+    transition: all 260ms ease-in-out;
+    width: 30px;
+}
+
+.menu-list a {
+    display: block;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 26px;
+    padding: 40px;
+    text-align: center;
+}
+
+.details {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.speakers {
+    background: rgb(243, 123, 120);
+}
+
+.speakerheading {
+    color: white;
+    padding-top: 40px;
+}
+
+.speaker-info {
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.title {
+    color: rgb(137, 192, 115);
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 27px;
+    margin-bottom: -5px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.speaker-photo {
+    border-radius: 50%;
+    display: block;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+
+.speaker-name {
+    color: rgb(243, 123, 120);
+    display: list-item;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: -10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.speaker-name:hover,
+.speaker-name:focus {
+    color: rgb(137, 192, 115);
+    text-decoration: solid underline;
+}
+
+.bio,
+.time {
+    color: rgb(160, 160, 160);
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.time {
+    color: rgb(137, 192, 115);
+}
+
+.previous-speakers {
+    text-align: center;
+    text-decoration: solid underline;
+    padding-bottom: 40px;
+}
+
+.registration {
+    color: rgb(137, 192, 115);
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.register-button {
+    background-color: rgb(243, 123, 120);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    height: 60px;
+    margin-top: 25px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 150px;
+}
+
+.register-button:hover,
+.register-button:focus {
+    background: linear-gradient(to right, rgb(137, 192, 115), rgb(243, 123, 120));
+}
+
+.newsletter {
+    text-transform: lowercase;
+}
+
+.newsletter-button {
+    background-color: rgb(243, 123, 120);
+    border: 1px solid rgb(243, 123, 120);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    height: 40px;
+    margin-top: 13px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 95px;
+}
+
+.newsletter-button:hover,
+.newsletter-button:focus {
+    background-color: rgb(255, 255, 255);
+    border: rgb(255, 255, 255);
+    color: rgb(243, 123, 120);
+}
+
+
+
+
+/* ====================== JS HAMBURGER ========================== */
+
+
+[aria-expanded=true] .menu-icon__line:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+}
+
+[aria-expanded=true] .menu-icon__line:nth-child(2) {
+    opacity: 0;
+}
+
+[aria-expanded=true] .menu-icon__line:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+}
+
+
+
+
+/* ====================== MEDIA QUERIES ========================== */
+
+
+@media (max-width: 599px) {
+
+    .site-nav>button:not([aria-expanded]) {
+        display: none;
+    }
+
+    .site-nav>button[aria-expanded=false]+ul {
+        display: none;
+    }
+}
+
+@media (min-width: 600px) {
+    .site-nav>button {
+        display: none;
+    }
+
+    .site-nav {
+        display: inline-block;
+        text-align: left;
+    }
+
+    .site-nav li {
+        display: inline-block;
+        max-width: 100px;
+    }
+
+    .site-nav li+li {
+        margin-right: 25px;
+    }
+
+    .site-nav a {
+        padding: 11px;
+    }
+
+
+    .footer-links {
+        display: inline-block;
+        text-align: left;
+    }
+
+    .footer-links li {
+        display: inline-block;
+        margin-right: 20px;
+        padding: 5px;
+    }
+}
+
+@media (min-width: 660px) {
+    .speaker-section {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .speaker-info {
+        display: inline-block;
+        margin-right: 10px;
+        margin-left: 10px;
+        vertical-align: top;
+        width: min(320px, 40%);
+    }
+}
