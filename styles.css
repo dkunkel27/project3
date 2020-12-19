@@ -249,7 +249,7 @@ footer {
     height: 2px;
     margin: 8px auto;
     transition: all 260ms ease-in-out;
-    width: 40px;
+    width: 30%;
 }
 
 
@@ -311,9 +311,15 @@ footer {
     .footer-links {
         display: inline-block;
         text-align: left;
-        
+    
+        /* margin-left: -180px; */ 
     }
 
+    .footer-links li { 
+        display: inline-block;
+        margin-right: 20px;
+        padding: 5px; 
+    }
 
 
 }
