@@ -275,14 +275,6 @@ footer {
 
 @media (max-width: 599px) {
 
-    .menu-list a {
-        display: inline-block;
-        font-family: 'Sansita Swashed', cursive;
-        font-size: 26px;
-        padding: 40px;
-        
-    }
-  
     .site-nav>button:not([aria-expanded]) {
         display: none;
     }
@@ -291,11 +283,24 @@ footer {
         display: none;
     }
 
-   
+
 }
 
 @media (min-width: 600px) {
     .site-nav>button {
         display: none;
     }
+
+    .site-nav {
+        display: inline-block;
+        text-align: left;
+
+    }
+
+    .site-nav li+li {
+        margin-left: 25px;
+    }
+
+
+
 }
