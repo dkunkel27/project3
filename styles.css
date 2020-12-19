@@ -87,6 +87,7 @@ h2 {
     text-align: center;
 }
 
+/* ====================== CLASS STYLES ========================== */
 
 .details {
     text-align: left;
@@ -249,7 +250,7 @@ footer {
     height: 2px;
     margin: 8px auto;
     transition: all 260ms ease-in-out;
-    width: 30%;
+    width: 30px;
 }
 
 
