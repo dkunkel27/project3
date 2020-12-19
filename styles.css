@@ -311,8 +311,6 @@ footer {
     .footer-links {
         display: inline-block;
         text-align: left;
-    
-        /* margin-left: -180px; */ 
     }
 
     .footer-links li { 
@@ -320,8 +318,6 @@ footer {
         margin-right: 20px;
         padding: 5px; 
     }
-
-
 }
 
 @media (min-width: 660px) {
@@ -337,4 +333,10 @@ footer {
         vertical-align: top;
         width: min(320px, 40%);
     }
+
+    .what {
+        display: inline-block;
+        
+    }
+
 }
