@@ -58,9 +58,7 @@ header {
     
 }
 
-.menu-list:hover, .menu-list:focus {
-    background-color: rgb(243, 123, 120);
-}
+
 
 .site-nav {
     position: relative;
