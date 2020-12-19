@@ -292,7 +292,6 @@ footer {
     .site-nav {
         display: inline-block;
         text-align: left;
-
     }
 
     .site-nav li {
@@ -301,20 +300,19 @@ footer {
     }
 
     .site-nav li+li {
-        margin-left: 25px;
+        margin-right: 25px;
     }
 
     .site-nav a {
-        display: block;
         padding: 11px;
+    }
+
+    
+    .footer-links {
+        display: inline-block;
         text-align: left;
+        
     }
-
-    .site-nav ul {
-        margin: 0;
-    }
-
-
 
 
 
