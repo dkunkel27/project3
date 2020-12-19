@@ -282,8 +282,6 @@ footer {
     .site-nav>button[aria-expanded=false]+ul {
         display: none;
     }
-
-
 }
 
 @media (min-width: 600px) {
@@ -297,42 +295,42 @@ footer {
 
     }
 
-    nav li {
+    .site-nav li {
         display: inline-block;
         max-width: 100px;
     }
 
-    nav li+li {
+    .site-nav li+li {
         margin-left: 25px;
     }
 
-    nav a {
+    .site-nav a {
         display: block;
-        padding: 4px;
+        padding: 11px;
         text-align: left;
     }
 
-    nav ul {
+    .site-nav ul {
         margin: 0;
     }
 
 
 
 
-    
+
 }
 
 @media (min-width: 660px) {
-    .speaker-section{
-      margin-right: 10px;
-      margin-left: 10px;
+    .speaker-section {
+        margin-right: 10px;
+        margin-left: 10px;
     }
-  
+
     .speaker-info {
-      display: inline-block;
-      margin-right: 10px;
-      margin-left: 10px;
-      vertical-align: top;
-      width: min(320px, 100%);
+        display: inline-block;
+        margin-right: 10px;
+        margin-left: 10px;
+        vertical-align: top;
+        width: min(320px, 40%);
     }
-  }
+}
