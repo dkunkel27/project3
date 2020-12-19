@@ -193,11 +193,15 @@ a:focus {
 
 }
 
-input[type=text] {
-    border: 2px solid red;
+input {
+    border: 1px solid rgb(243, 123, 120);
     border-radius: 4px;
 }
 
+input:hover, input:focus {
+    outline: none; 
+    background-color: rgb(236, 179, 178);
+}
 
 
 
