@@ -187,35 +187,38 @@ a:focus {
 
 .registration {
     text-align: center;
-    line-height: 36px;
+    font-size: 20px;
+    line-height: 40px;
     color: rgb(137, 192, 115);
-
-
+    margin-bottom: 80px;
 }
 
 input {
     border: 1px solid rgb(243, 123, 120);
     border-radius: 4px;
+    width: 60%;
+    height: 25px;
 }
 
 input:hover, input:focus {
+    background-color: rgb(255, 232, 231);
     outline: none; 
-    background-color: rgb(236, 179, 178);
 }
 
 
 
 
 .register-button {
-    margin-top: 13px;
+    margin-top: 25px;
     background-color: rgb(243, 123, 120);
     border: 2px solid rgb(255, 255, 255);
     border-radius: 40px;
     color: rgb(255, 255, 255);
-    height: 50px;
-    width: 120px;
+    font-size: 16px;
+    height: 60px;
+    width: 150px;
     padding: 10px;
-    font-size: 13px;
+   
     text-align: center;
     text-transform: uppercase;
 }
