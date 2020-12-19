@@ -69,11 +69,6 @@ img {
     text-align: center;
 }
 
-/* .site-nav {
-    position: relative;
-} */
-
-
 
 h1 {
     color: rgb(137, 192, 115);
@@ -280,6 +275,14 @@ footer {
 
 @media (max-width: 599px) {
 
+    .menu-list a {
+        display: inline-block;
+        font-family: 'Sansita Swashed', cursive;
+        font-size: 26px;
+        padding: 40px;
+        
+    }
+  
     .site-nav>button:not([aria-expanded]) {
         display: none;
     }
@@ -287,6 +290,8 @@ footer {
     .site-nav>button[aria-expanded=false]+ul {
         display: none;
     }
+
+   
 }
 
 @media (min-width: 600px) {
